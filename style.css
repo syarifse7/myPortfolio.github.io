@@ -1,18 +1,229 @@
 /* NOTE : BE CAREFULL TO USE A CSS*/
-@media and screen (max-width: 1000px){
+@media only screen and (min-width: 375px) and (max-width: 420px){
 	body {
-		padding: 0;
-		margin: 100%;
+		width: 100%;
 	}
-}
 
-@media and screen (max-width: 400px){
-	.navbar-top {
-		padding: 0;
-		margin: 100%;
+	/* navbar */
+	body .navbar-top {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
 	}
-}
 
+	body .navbar-top a#active {
+		line-height: 30px;
+	}
+
+	body .navbar-top a {
+		box-sizing: border-box;
+		float: left;
+		color: white;
+		text-align: center;
+		padding:  12px;
+		text-decoration: none;
+		font-size: 13px;
+		letter-spacing: 2px;
+	}
+
+	body .navbar-top a:hover {
+		background-color: #002;
+		color: white;
+	}
+
+	/* jumbotron */
+	body .jumbotron {
+		overflow: auto;
+		width: 100%;
+		background: linear-gradient(black, DeepSkyBlue);
+	}
+
+	body #gambar img {
+		display: grid;
+		margin: auto;
+		margin-top: 40px;
+		width: 150px;
+		height: 150px;
+		border: 1px solid aqua;
+		border-radius: 50%;
+		box-shadow: 5px 5px 5px black;
+	}
+
+	body .jumbotron h4 {
+		text-align: center;
+		font-family: georgia;
+		font-size: 18px;
+		color: white;
+		font-weight: lighter;
+		letter-spacing: 2px;
+	}
+
+	body .jumbotron h5 {
+		line-height: 20px;
+		text-align: center;
+		font-family: georgia;
+		font-size: 15px;
+		color: white;
+		font-weight: lighter;
+		letter-spacing: 2px;
+	}
+
+	/* main */
+	body .text-center {
+		margin: 50px 0;
+	}
+
+	body .text-center h2 {
+		margin-top: 30px;
+		text-align: center;
+		font-family: verdana;
+		font-size: 20px;
+		font-weight: lighter;
+	} 
+
+	body .text-center hr {
+		width: 100px;
+		border-top: 2px solid black;
+
+	}
+
+	body .content p {
+		text-align: justify;
+		text-indent: 20px;
+		margin-top: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: georgia;
+		font-size: 12px;
+	}
+
+	/* my skills */
+	body .text-center1 {
+		margin: 20px 0;
+	}
+
+	body .text-center1 h2 {
+		margin-top: 150px;
+		text-align: center;
+		font-family: verdana;
+		font-size: 20px;
+		font-weight: lighter;
+	} 
+
+	body .text-center1 hr {
+		width: 100px;
+		border-top: 2px solid black;
+
+	}
+
+	body .skills {
+		width: 300px;
+		margin: 60px auto;
+		color: white;
+		font-size: 12px;
+	}
+
+	body .skills li {
+		margin: 20px auto;
+		list-style: none;
+	}
+
+	body .bar {
+		background: grey;
+		display: block;
+		height: 5px;
+	/*	border: 1px solid rgba(0,0,0,0.3);*/
+		border-radius: 3px;
+		overflow: hidden;
+		box-shadow: 0 0 10px #2187e7b3;
+	}
+
+	body .bar span {
+		height: 5px;
+		float: left;
+	/*	background: blue;*/
+	}
+
+	/* contact me */
+
+
+	body .text-center2 {
+		margin: 20px 0;
+	}
+
+	body .text-center2 h2 {
+		margin-top: 150px;
+		text-align: center;
+		font-family: verdana;
+		font-size: 20px;
+		font-weight: lighter;
+	} 
+
+	body .text-center2 hr {
+		width: 120px;
+		border-top: 2px solid black;
+
+	}
+
+	/* icon */
+
+	body .icon {
+		margin: 0 auto;
+		overflow: auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	/* icon telp*/
+
+	body .telp img {
+		margin-top: 10px;
+		width: 40px;
+		height: 40px;
+	}
+
+	body .icon h4 {
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+
+
+	/* icon email */
+
+	.email img {
+		margin-top: 10px;
+		width: 40px;
+		height: 40px;
+	}
+
+	/* icon instagram */
+
+	.instagram img {
+		margin-top: 10px;
+		width: 40px;
+		height: 40px;
+	}
+
+	/* icon youtube */
+
+	.youtube img {
+		margin-top: 10px;
+		width: 40px;
+		height: 40px;
+	}
+
+	/* footer */
+
+	body .footer {
+		clear: both;
+		margin-top: 150px;
+		font-family: georgia;
+		font-size: 12px;
+	}
+
+
+
+}
 
 * {
 	box-sizing: border-box;
@@ -198,13 +409,13 @@ body {
 
 .css {
 	background: blue;
-	width: 70%;
+	width: 85%;
 
 }
 
 .javascript {
 	background: yellow;
-	width: 40%;
+	width: 60%;
 
 }
 
