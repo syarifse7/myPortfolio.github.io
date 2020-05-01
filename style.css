@@ -1,5 +1,5 @@
 /* NOTE : BE CAREFULL TO USE A CSS*/
-@media only screen and (min-width: 375px) and (max-width: 420px){
+@media only screen and (min-width: 320px) and (max-width: 420px){
 	body {
 		width: 100%;
 	}
@@ -215,15 +215,21 @@
 	/* footer */
 
 	body .footer {
-		clear: both;
-		margin-top: 150px;
+		width: 100%;
+		overflow: auto;
 		font-family: georgia;
-		font-size: 12px;
 	}
 
-
+	body .container-footer p {
+		text-align: center;
+		font-size: 10px;
+	}
 
 }
+
+
+
+
 
 * {
 	box-sizing: border-box;
