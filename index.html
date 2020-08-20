@@ -129,7 +129,7 @@
 
 		<div class="footer">
 			<div class="container-footer">
-				<p>&copy; copyright 2020 | built with Love by. <a href="http://instagram.com/syariff_7">Syarifudin</a>.</p></p>
+				<p id="copyright">&copy; copyright 2020 | built with Love by. <a href="http://instagram.com/syariff_7">Syarifudin</a>.</p></p>
 			</div>
 		</div>
 
@@ -142,7 +142,24 @@
 
 	alert('hallo ' + user + ' nice to meet you ');
 
+/* add function */
 
+const changeJobsTitle = (job) => {
+	const JobsTitle = document.getElementsByTagName('h5');
+
+	if (typeof job === 'string'){
+	
+		JobsTitle[0].innerText = job;
+
+	} else {
+		JobsTitle[0].innerText = "Alert: Jobs Title must be string!";
+	}
+
+}
+
+// call function 
+changeJobsTitle('Front-End | Cat Lovers');
+ 
 
 
 </script>
