@@ -36,12 +36,12 @@
 		overflow: auto;
 		width: 100%;
 		background: linear-gradient(black, DeepSkyBlue);
-		animation-name: changeBackground;
+		/*animation-name: changeBackground;
 		animation-iteration-count: infinite;
-		animation-duration: 2s;
+		animation-duration: 2s;*/
 	}
 
-	@keyframes changeBackground {
+	/*@keyframes changeBackground {
 		0% {
 			background: linear-gradient(to right, #FCF472, #EFDC86);
 		}
@@ -55,7 +55,7 @@
 		100%{
 			background: linear-gradient(#E691AF, #1C040C);
 		}
-	}
+	}*/
 
 	body #gambar img {
 		display: grid;
