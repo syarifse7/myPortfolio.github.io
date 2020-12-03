@@ -1,3 +1,4 @@
+
 /*$(document).ready(function() {
 
 	alert('ready to use!');
@@ -47,3 +48,4 @@ pagescrolledAboutMe.addEventListener('click', function(){
 	alert('oke!');
 
 });*/
+
