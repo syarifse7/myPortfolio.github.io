@@ -29,6 +29,7 @@
 	body .navbar-top a:hover {
 		background-color: #002;
 		color: white;
+		font-weight: 600;
 	}
 
 	/* jumbotron */
@@ -60,7 +61,7 @@
 	body #gambar img {
 		display: grid;
 		margin: auto;
-		margin-top: 70px;
+		margin-top: 100px;
 		width: 150px;
 		height: 150px;
 		border: 1px solid aqua;
