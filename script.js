@@ -5,6 +5,32 @@
 
 });*/
 
+/* add efek parallax */
+$(window).scroll(function() {
+	var wScroll = $(this).scrollTop();
+
+	/* efek parallax for img */
+	$('.jumbotron img').css({
+
+		'transform': 'translate(0px, '+ wScroll/5 +'%)',
+		'transition' : 'all ease 0.1s',
+	});
+
+	$('.jumbotron h4').css({
+
+			'transform': 'translate(0px, '+ wScroll/0.8 +'%)',
+			'transition' : 'all ease 0.1s',
+		});
+
+	$('.jumbotron h5').css({
+
+				'transform': 'translate(0px, '+ wScroll +'%)',
+				'transition' : 'all ease 0.1s',
+			});
+
+
+});
+
 $('.page-scroll').on('click', function() {
 	/* ambil isi href */
 	let tujuan = $(this).attr('href');

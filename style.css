@@ -30,6 +30,7 @@
 		background-color: #002;
 		color: white;
 		font-weight: 600;
+		text-shadow: 1px 1px 10px #eaeaea;
 	}
 
 	/* jumbotron */
@@ -64,9 +65,15 @@
 		margin-top: 100px;
 		width: 150px;
 		height: 150px;
-		border: 1px solid aqua;
+		border: 4px solid aqua;
 		border-radius: 50%;
 		box-shadow: 5px 5px 5px black;
+		cursor: pointer;
+		opacity: 0.9;
+	}
+
+	body #gambar img:hover {
+		box-shadow: 1px 1px 10px #eaeaea;
 	}
 
 	body .jumbotron h4 {
@@ -268,8 +275,9 @@ body {
 	position: fixed;
 	width: 100%;
 	top: 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	background-color: #333;
+	z-index: 1;
 }
 
 .navbar-top a {
@@ -300,13 +308,13 @@ body {
 /* jumbotron */
 
 .jumbotron {
-	overflow: auto;
+	/*position: relative;*/
 	width: 100%;
 	height: 400px;
 	background: linear-gradient(black, DeepSkyBlue);
 }
 
-#gambar img {
+.jumbotron img {
 	display: grid;
 	margin: auto;
 	margin-top: 60px;
@@ -319,6 +327,8 @@ body {
 	animation-name: animate;
 	animation-duration: 2s;
 	animation-delay: 0.5s;
+	overflow: hidden;
+	/*z-index: 1;*/
 }
 
 @keyframes animate {
