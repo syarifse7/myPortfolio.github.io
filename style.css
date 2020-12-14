@@ -463,8 +463,19 @@ body {
 
 .javascript {
 	background: yellow;
-	width: 60%;
+	width: 70%;
 
+}
+
+.bootstrap {
+	background: green;
+	width: 65%;
+
+}
+
+.jquery {
+	background: #FF331E;
+	width: 55%;
 }
 
 /* add animation */
@@ -498,7 +509,29 @@ body {
 
 @keyframes lebar2 {
 	from { width: 0; }
-	to { width: 40%; }
+	to { width: 70%; }
+
+}
+
+.bootstrap {
+	animation-name: lebar3;
+	animation-duration: 4s;
+}
+
+@keyframes lebar3 {
+	from { width: 0; }
+	to { width: 65%; }
+
+}
+
+.jquery {
+	animation-name: lebar4;
+	animation-duration: 4s;
+}
+
+@keyframes lebar4 {
+	from { width: 0; }
+	to { width: 55%; }
 
 }
 
