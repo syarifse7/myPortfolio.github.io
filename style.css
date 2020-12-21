@@ -254,7 +254,57 @@
 
 }
 
+/* add media query for tab device */
 
+@media only screen and (min-width: 420px) and (max-width: 768px){
+
+	body {
+		width: 100%;
+	}
+
+
+	/* navbar */
+	body .navbar-top {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	body .navbar-top a#active {
+		line-height: 33px;
+	}
+
+	body .navbar-top a {
+		box-sizing: border-box;
+		float: left;
+		color: white;
+		text-align: center;
+		padding:  12px;
+		text-decoration: none;
+		font-size: 18px;
+		letter-spacing: 2px;
+		line-height: 33px;
+	}
+
+	body .navbar-top a:hover {
+		background-color: #002;
+		color: white;
+		font-weight: 600;
+		text-shadow: 1px 1px 10px #eaeaea;
+	}
+
+	/* jumbotron */
+	body .jumbotron {
+		overflow: auto;
+		width: 100%;
+		background: linear-gradient(black, DeepSkyBlue);
+		/*animation-name: changeBackground;
+		animation-iteration-count: infinite;
+		animation-duration: 2s;*/
+	}
+
+
+}
 
 
 
@@ -497,7 +547,7 @@ body {
 
 @keyframes lebar1 {
 	from { width: 0; }
-	to { width: 70%; }
+	to { width: 85%; }
 
 }
 
